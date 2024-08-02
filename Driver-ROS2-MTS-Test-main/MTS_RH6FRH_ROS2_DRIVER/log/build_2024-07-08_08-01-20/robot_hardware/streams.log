@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware
+[0.053s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.354s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.354s]   project has asked CMake to find a package configuration file provided by
+[0.354s]   "hardware_interface", but CMake did not find one.
+[0.354s] 
+[0.362s]   Could not find a package configuration file provided by
+[0.366s]   "hardware_interface" with any of the following names:
+[0.366s] 
+[0.368s]     hardware_interfaceConfig.cmake
+[0.368s]     hardware_interface-config.cmake
+[0.368s] 
+[0.368s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.368s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.369s]   files.  If "hardware_interface" provides a separate development package or
+[0.369s]   SDK, be sure it has been installed.
+[0.369s] 
+[0.369s] [0m
+[0.372s] -- Configuring incomplete, errors occurred!
+[0.372s] See also "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware/CMakeFiles/CMakeOutput.log".
+[0.372s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '1': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware

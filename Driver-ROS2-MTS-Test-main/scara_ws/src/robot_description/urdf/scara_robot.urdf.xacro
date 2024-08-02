@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro ="http://www.ros.org/wiki/xacro" name="RH6">
+
+    <xacro:include filename="$(find robot_description)/urdf/scara_gazebo.xacro"/>
+    <xacro:include filename="$(find robot_description)/urdf/scara_ros2_control.xacro"/>
+
+    <!--dane do obliczen + dane z manuala robota odnosnie osobnych osi-->
+
+    <!--Liczba PI-->   
+    <xacro:property name="PI" value="3.14159"/>
+
+    <!-- Maksymalne momenty dla poszczegolnych osi-->
+
+    <!--Max moment dla pierwszej osi-->
+    <xacro:property name="effort" value="30.0"/>
+
+    <!-- Maksymalne predkosci dla poszczegolnych osi-->
+
+    <!--Max predkosc osi pierwszej w deg/s-->
+    <xacro:property name="velocity_J1" value="400"/>
+
+    <!--Max predkosc osi drugiej w deg/s-->
+    <xacro:property name="velocity_J2" value="670"/>
+
+    <!--Max predkosc osi trzeciej w deg/s-->
+    <xacro:property name="velocity_J3" value="2400"/>
+
+    <!--Max predkosc osi czwartej w deg/s-->
+    <xacro:property name="velocity_J4" value="2500"/>
+
+    <!--makro na moment bezwladnosci pudla-->
+    <xacro:macro name='inertia_box' params='m x y z'>
+        <inertial>
+            <origin xyz="${x/2} ${y/2} ${z/2}" rpy="0.0 0.0 0.0"/>
+            <mass value="${m}"/>
+            <inertia ixx="${(1/12)*m*(y*y+z*z)}" ixy="0.0" ixz="0.0" iyy="${(1/12)*m*(x*x+z*z)}" iyz="0.0" izz="${(1/12)*m*(x*x+y*y)}"/>
+        </inertial>
+    </xacro:macro>
+
+    <!--makro na moment bezwladnosci walca-->
+    <xacro:macro name='inertia_cylinder' params='m l r'>
+        <inertial>
+            <origin xyz="${l/2} 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <mass value="${m}"/>
+            <inertia ixx="${(2/5)*m*r*r}" ixy="0.0" ixz="0.0" iyy="${(2/5)*m*r*r}" iyz="0.0" izz="${(2/5)*m*r*r}"/>
+        </inertial>
+    </xacro:macro>
+
+    <!-- Makra na przelozenia poszczegolnych osi-->
+    <xacro:macro name="transmission" params="number i">
+        <transmission name="J${number}_transmission">
+            <plugin>transmission_interface/SimpleTransmission</plugin>
+            <actuator name="motor_${number}" role="actuator_1"/>
+            <joint name="joint_${number}" role="joint_1"/>
+                <mechanical_reduction>${i}</mechanical_reduction>
+        </transmission>
+    </xacro:macro>
+
+    <!--Model robota-->
+
+    <link name="world"/>
+
+    <link name="base_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J1SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J1SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <xacro:inertia_box m="15" x="53.36" y="44.40" z="88.13"></xacro:inertia_box>
+    </link>
+
+    <joint name="virtual_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <link name="J2">
+        <visual>
+            <origin xyz="0.0 0.0 -342" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J2SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 -342" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J2SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <xacro:inertia_box m="6" x="116.96" y="19.00" z="35.56">
+            <!--<origin xyz="58.48 9.5 17.78" rpy="0.0 0.0 0.0"/>-->
+        </xacro:inertia_box>
+    </link>
+
+    <joint name="joint_1" type="revolute">
+        <origin xyz="0.0 0.0 342" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="J2"/>
+        <axis xyz="0.0 0.0 1"/>
+        <limit lower="-${0.944444*PI}" upper="${0.944444*PI}" effort="${effort}" velocity="${velocity_J1}"/>
+    </joint>
+
+    <link name="J3">
+        <visual>
+            <origin xyz="0 324 -410" rpy="${PI/2} 0 0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J3SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0 324 -410" rpy="${PI/2} 0 0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J3SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <xacro:inertia_box m="10" x="97.00" y="34.00" z="97.00">
+            <!--<origin xyz="48.5 17.0 48.5" rpy="0.0 0.0 0.0"/>-->
+        </xacro:inertia_box>
+    </link>
+
+    <joint name="joint_2" type="revolute">
+        <origin xyz="0.0 -324 68" rpy="0.0 0.0 0.0"/>
+        <parent link="J2"/>
+        <child link="J3"/>
+        <axis xyz="0.0 0.0 1"/>
+        <limit lower="-${0.8055555556*PI}" upper="${0.8055555556*PI}" effort="${effort}" velocity="${velocity_J2}"/>  
+    </joint>
+
+    <link name="J4">
+        <visual>
+            <origin xyz="0.0 550 -412" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J4SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 550 -412" rpy="${PI/2} 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J4SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <xacro:inertia_cylinder m="5" l="106.17" r="3.175">
+            <!--<origin xyz="53.085 0.0 0.0" rpy="0.0 ${PI/2} 0.0"/>-->
+        </xacro:inertia_cylinder>
+    </link>
+
+    <joint name="joint_3" type="prismatic">
+        <origin xyz="0.0 -230 0" rpy="0.0 0.0 0.0"/>
+        <parent link="J3"/>
+        <child link="J4"/>
+        <axis xyz="0.0 0.0 1"/>
+        <limit lower="-297" upper="25" effort="${effort}" velocity="${velocity_J3}"/>
+    </joint>
+
+    <link name="J4_rotate">
+        <visual>
+            <origin xyz="0.0 550 -332" rpy="${PI/2} 0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J4SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 550 -332" rpy="${PI/2} 0 0.0"/>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/J4SCARA.stl" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <xacro:inertia_cylinder m="5" l="106.17" r="3.175">
+            <!--<origin xyz="53.085 0.0 0.0" rpy="0.0 ${PI/2} 0.0"/>-->
+        </xacro:inertia_cylinder>
+    </link>
+
+    <joint name="joint_4" type="revolute">
+        <origin xyz="0.0 0 -80" rpy="0.0 0.0 0.0"/>
+        <parent link="J4"/>
+        <child link="J4_rotate"/>
+        <axis xyz="0.0 0.0 1"/>
+        <limit lower="-${PI*2}" upper="${PI*2}" effort="${effort}" velocity="${velocity_J4}"/>   
+    </joint>
+    
+
+    <xacro:transmission number="1" i="80.0"/>
+    <xacro:transmission number="2" i="80.0"/>
+    <xacro:transmission number="3" i="14.4"/>
+    <xacro:transmission number="4" i="14.4"/>
+
+</robot>
