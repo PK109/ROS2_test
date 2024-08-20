@@ -109,6 +109,7 @@ RUN groupadd --gid $USER_GID ${USERNAME} \
   && rm -rf /var/lib/apt/lists/*
 
 
+
 # Set up autocompletion for user
 RUN apt-get update && apt-get install -y git-core bash-completion \
   && echo "if [ -f /opt/ros/${ROS_DISTRO}/setup.bash ]; then source /opt/ros/${ROS_DISTRO}/setup.bash; fi" >> /home/${USERNAME}/.bashrc \
@@ -120,6 +121,9 @@ ENV AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS=1
 
 USER    ${USERNAME}
 ENV     HOME /home/${USERNAME} 
+
+RUN cd /home/ros \
+  && sudo chown -R ros:ros .
 
 
 ###########################################
