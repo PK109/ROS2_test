@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description -- -j2 -l2
+[0.106s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description -- -j2 -l2
+[0.170s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description
+[0.184s] -- Install configuration: ""
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara.urdf.xacro
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_ros2_control.xacro
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_gazebo.xacro
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4Rotate.stl
+[0.185s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J2SCARA.stl
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4SCARA.stl
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J1SCARA.stl
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J3SCARA.stl
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config/scara.config.xacro
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch
+[0.186s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[0.187s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/display.launch.py
+[0.187s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz
+[0.188s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.rviz
+[0.188s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.gazebo
+[0.188s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.206s] [31mCMake Error at cmake_install.cmake:56 (file):
+[0.206s]   file INSTALL cannot set permissions on
+[0.206s]   "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description":
+[0.206s]   Operation not permitted.
+[0.206s] 
+[0.206s] [0m
+[0.207s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description

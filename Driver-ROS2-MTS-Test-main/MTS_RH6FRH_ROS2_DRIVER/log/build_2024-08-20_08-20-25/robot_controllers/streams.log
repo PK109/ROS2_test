@@ -1,0 +1,24 @@
+[0.033s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers -- -j2 -l2
+[0.180s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers -- -j2 -l2
+[0.252s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers
+[0.280s] -- Install configuration: ""
+[0.281s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/config
+[0.281s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/config/scara_controllers.yaml
+[0.282s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/launch
+[0.282s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/launch/controllers.launch.py
+[0.282s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/package_run_dependencies/robot_controllers
+[0.282s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/parent_prefix_path/robot_controllers
+[0.283s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.sh
+[0.283s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.dsv
+[0.283s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/path.sh
+[0.284s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/path.dsv
+[0.284s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.bash
+[0.284s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.sh
+[0.285s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.zsh
+[0.285s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.dsv
+[0.285s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.dsv
+[0.292s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/packages/robot_controllers
+[0.293s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake
+[0.293s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake
+[0.293s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.xml
+[0.296s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers

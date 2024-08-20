@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000652] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000871] (robot_controllers) JobQueued: {'identifier': 'robot_controllers', 'dependencies': OrderedDict()}
+[0.000954] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.001033] (robot_moveit) JobQueued: {'identifier': 'robot_moveit', 'dependencies': OrderedDict()}
+[0.001086] (scara_msgs) JobQueued: {'identifier': 'scara_msgs', 'dependencies': OrderedDict()}
+[0.001161] (robot_hardware) JobQueued: {'identifier': 'robot_hardware', 'dependencies': OrderedDict([('robot_bringup', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup'), ('robot_description', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description')])}
+[0.001621] (scara_sample_program) JobQueued: {'identifier': 'scara_sample_program', 'dependencies': OrderedDict([('scara_msgs', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs')])}
+[0.001684] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.051830] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.059144] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.072270] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[0.072990] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'env': OrderedDict([('HOSTNAME', '646b24cd2e71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083381] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.099678] (-) TimerEvent: {}
+[0.112585] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.113424] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'env': OrderedDict([('HOSTNAME', '646b24cd2e71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199793] (-) TimerEvent: {}
+[0.300134] (-) TimerEvent: {}
+[0.401076] (-) TimerEvent: {}
+[0.501513] (-) TimerEvent: {}
+[0.602149] (-) TimerEvent: {}
+[0.702665] (-) TimerEvent: {}
+[0.803581] (-) TimerEvent: {}
+[0.904164] (-) TimerEvent: {}
+[1.004585] (-) TimerEvent: {}
+[1.105970] (-) TimerEvent: {}
+[1.206485] (-) TimerEvent: {}
+[1.306941] (-) TimerEvent: {}
+[1.407400] (-) TimerEvent: {}
+[1.453845] (robot_bringup) CommandEnded: {'returncode': 0}
+[1.461039] (robot_description) CommandEnded: {'returncode': 0}
+[1.486853] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[1.497644] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'env': OrderedDict([('HOSTNAME', '646b24cd2e71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.499525] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[1.499662] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'env': OrderedDict([('HOSTNAME', '646b24cd2e71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.507479] (-) TimerEvent: {}
+[1.516139] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.516558] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.517015] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf\n'}
+[1.517368] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara.urdf.xacro\n'}
+[1.517663] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_ros2_control.xacro\n'}
+[1.517943] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_gazebo.xacro\n'}
+[1.518235] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes\n'}
+[1.518688] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4Rotate.stl\n'}
+[1.518881] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J2SCARA.stl\n'}
+[1.519125] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4SCARA.stl\n'}
+[1.519406] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J1SCARA.stl\n'}
+[1.519690] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J3SCARA.stl\n'}
+[1.519972] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config\n'}
+[1.520300] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config/scara.config.xacro\n'}
+[1.520579] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch\n'}
+[1.520900] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[1.521184] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[1.521455] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz\n'}
+[1.521768] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.rviz\n'}
+[1.522044] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.gazebo\n'}
+[1.522381] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[1.522706] (robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:56 (file):\n'}
+[1.522897] (robot_description) StderrLine: {'line': b'  file INSTALL cannot set permissions on\n'}
+[1.523127] (robot_description) StderrLine: {'line': b'  "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description":\n'}
+[1.523414] (robot_description) StderrLine: {'line': b'  Operation not permitted.\n'}
+[1.523576] (robot_description) StderrLine: {'line': b'\n'}
+[1.523733] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch\n'}
+[1.523905] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch/simulation.launch.py\n'}
+[1.524162] (robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.524427] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch/real_robot.launch.py\n'}
+[1.524586] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[1.528096] (robot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:50 (file):\n'}
+[1.528488] (robot_bringup) StderrLine: {'line': b'  file INSTALL cannot set permissions on\n'}
+[1.528690] (robot_bringup) StderrLine: {'line': b'  "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup":\n'}
+[1.528848] (robot_bringup) StderrLine: {'line': b'  Operation not permitted.\n'}
+[1.529011] (robot_bringup) StderrLine: {'line': b'\n'}
+[1.529367] (robot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[1.529555] (robot_description) CommandEnded: {'returncode': 1}
+[1.538779] (robot_bringup) CommandEnded: {'returncode': 1}
+[1.607565] (-) TimerEvent: {}
+[1.684555] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 1}
+[1.685842] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 'SIGINT'}
+[1.696219] (robot_controllers) JobSkipped: {'identifier': 'robot_controllers'}
+[1.696274] (robot_moveit) JobSkipped: {'identifier': 'robot_moveit'}
+[1.696317] (scara_msgs) JobSkipped: {'identifier': 'scara_msgs'}
+[1.696356] (robot_hardware) JobSkipped: {'identifier': 'robot_hardware'}
+[1.696393] (scara_sample_program) JobSkipped: {'identifier': 'scara_sample_program'}
+[1.696430] (-) EventReactorShutdown: {}

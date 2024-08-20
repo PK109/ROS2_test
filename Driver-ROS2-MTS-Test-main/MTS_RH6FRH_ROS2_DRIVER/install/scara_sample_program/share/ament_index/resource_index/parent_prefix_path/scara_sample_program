@@ -1,1 +1,1 @@
-/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble
+/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:56 (file):
+  file INSTALL cannot set permissions on
+  "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description":
+  Operation not permitted.
+
+[0m

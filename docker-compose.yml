@@ -1,5 +1,4 @@
-version: '3.8'
-
+name: ros2
 services:
   ros2_dev:
     build:
@@ -8,8 +7,12 @@ services:
       target: dev
     volumes:
       - ./Driver-ROS2-MTS-Test-main:/home/ros/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix 
+      - /tmp/.XAuthority:/tmp/.XAuthority 
     environment:
       - DEBIAN_FRONTEND=noninteractive
+      - DISPLAY=$DISPLAY
+      - XAUTHORITY=/tmp/.XAuthority
     tty: true
 
   # ros2_full:
@@ -34,5 +37,3 @@ services:
   #     - DEBIAN_FRONTEND=noninteractive
   #   tty: true
 
-volumes:
-  lol:
