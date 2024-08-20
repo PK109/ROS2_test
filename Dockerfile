@@ -120,7 +120,7 @@ ENV AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS=1
 
 USER    ${USERNAME}
 ENV     HOME /home/${USERNAME} 
-CMD     xeyes
+
 
 ###########################################
 #  Full image
