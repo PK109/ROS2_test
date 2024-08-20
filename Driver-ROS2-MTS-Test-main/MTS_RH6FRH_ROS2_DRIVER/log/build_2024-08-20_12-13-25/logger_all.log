@@ -1,0 +1,566 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72a5461c4220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72a546193730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72a546193730>>, mixin_verb=('build',))
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_controllers) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_controllers' with type 'ros.ament_cmake' and name 'robot_controllers'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_hardware) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_hardware' with type 'ros.ament_cmake' and name 'robot_hardware'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_moveit) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_moveit' with type 'ros.ament_cmake' and name 'robot_moveit'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_msgs) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_msgs' with type 'ros.ament_cmake' and name 'scara_msgs'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_sample_program) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_sample_program' with type 'ros.ament_cmake' and name 'scara_sample_program'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'robot_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'robot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'robot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'scara_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.283s] DEBUG:colcon.colcon_core.verb:Building package 'scara_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'robot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'robot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'scara_sample_program' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'scara_sample_program' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program', 'merge_install': False, 'path': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program', 'symlink_install': False, 'test_result_base': None}
+[0.284s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup'
+[0.290s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.291s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.292s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description -- -j2 -l2
+[1.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup
+[1.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup -- -j2 -l2
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description -- -j2 -l2
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup -- -j2 -l2
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' for CMake module files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' for CMake config files
+[1.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/bin'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/lib/python3.10/site-packages'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/bin'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.zsh'
+[1.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/colcon-core/packages/robot_description)
+[1.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' for CMake module files
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description' for CMake config files
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/lib/pkgconfig/robot_description.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/lib/python3.10/site-packages'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/bin'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.sh'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.bash'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.zsh'
+[1.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/colcon-core/packages/robot_description)
+[1.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs' with build type 'ament_cmake'
+[1.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs'
+[1.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs
+[1.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' for CMake module files
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' for CMake config files
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup
+[1.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/bin'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/lib/python3.10/site-packages'
+[1.612s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/bin'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.sh'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.bash'
+[1.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' for CMake module files
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup' for CMake config files
+[1.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[1.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/bin'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[1.662s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/lib/python3.10/site-packages'
+[1.663s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/bin'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.sh'
+[1.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.bash'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.zsh'
+[1.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[1.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers' with build type 'ament_cmake'
+[1.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers'
+[1.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers
+[2.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers
+[2.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers -- -j2 -l2
+[3.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers -- -j2 -l2
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers
+[3.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controllers)
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' for CMake module files
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' for CMake config files
+[3.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controllers', 'cmake_prefix_path')
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.ps1'
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers
+[3.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.dsv'
+[3.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.sh'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/bin'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/lib/pkgconfig/robot_controllers.pc'
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/lib/python3.10/site-packages'
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/bin'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.sh'
+[3.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.bash'
+[3.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.zsh'
+[3.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/colcon-core/packages/robot_controllers)
+[3.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_controllers)
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' for CMake module files
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers' for CMake config files
+[3.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_controllers', 'cmake_prefix_path')
+[3.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.ps1'
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.dsv'
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.sh'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/bin'
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/lib/pkgconfig/robot_controllers.pc'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/lib/python3.10/site-packages'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/bin'
+[3.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.dsv'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.sh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.zsh'
+[3.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/colcon-core/packages/robot_controllers)
+[3.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit' with build type 'ament_cmake'
+[3.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit'
+[3.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit
+[4.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs
+[4.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs -- -j2 -l2
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit
+[4.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit -- -j2 -l2
+[4.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit -- -j2 -l2
+[4.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit
+[4.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit)
+[4.880s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' for CMake module files
+[4.881s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' for CMake config files
+[4.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit', 'cmake_prefix_path')
+[4.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.ps1'
+[4.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.dsv'
+[4.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit
+[4.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.sh'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/bin'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/lib/pkgconfig/robot_moveit.pc'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/lib/python3.10/site-packages'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/bin'
+[4.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.ps1'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.dsv'
+[4.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.sh'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.bash'
+[4.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.zsh'
+[4.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/colcon-core/packages/robot_moveit)
+[5.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_moveit)
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' for CMake module files
+[5.088s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit' for CMake config files
+[5.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_moveit', 'cmake_prefix_path')
+[5.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.ps1'
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.dsv'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/hook/cmake_prefix_path.sh'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/bin'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/lib/pkgconfig/robot_moveit.pc'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/lib/python3.10/site-packages'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/bin'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.ps1'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.dsv'
+[5.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.sh'
+[5.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.bash'
+[5.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.zsh'
+[5.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/colcon-core/packages/robot_moveit)
+[5.104s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware' with build type 'ament_cmake'
+[5.104s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware'
+[5.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware
+[9.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware
+[9.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware -- -j2 -l2
+[14.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs -- -j2 -l2
+[14.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs
+[15.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_msgs)
+[15.018s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' for CMake module files
+[15.019s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' for CMake config files
+[15.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_msgs', 'cmake_prefix_path')
+[15.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.ps1'
+[15.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.dsv'
+[15.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.sh'
+[15.022s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib'
+[15.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs
+[15.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_msgs', 'ld_library_path_lib')
+[15.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.ps1'
+[15.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.dsv'
+[15.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.sh'
+[15.030s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/bin'
+[15.030s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/pkgconfig/scara_msgs.pc'
+[15.030s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/python3.10/site-packages'
+[15.032s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/bin'
+[15.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.ps1'
+[15.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.dsv'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.sh'
+[15.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.bash'
+[15.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.zsh'
+[15.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/colcon-core/packages/scara_msgs)
+[15.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_msgs)
+[15.160s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' for CMake module files
+[15.161s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs' for CMake config files
+[15.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_msgs', 'cmake_prefix_path')
+[15.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.ps1'
+[15.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.dsv'
+[15.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/cmake_prefix_path.sh'
+[15.165s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib'
+[15.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_msgs', 'ld_library_path_lib')
+[15.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.ps1'
+[15.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.dsv'
+[15.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/hook/ld_library_path_lib.sh'
+[15.170s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/bin'
+[15.170s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/pkgconfig/scara_msgs.pc'
+[15.170s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/python3.10/site-packages'
+[15.170s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/bin'
+[15.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.ps1'
+[15.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.dsv'
+[15.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.sh'
+[15.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.bash'
+[15.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.zsh'
+[15.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/colcon-core/packages/scara_msgs)
+[15.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program' with build type 'ament_cmake'
+[15.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program'
+[15.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program
+[17.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware -- -j2 -l2
+[17.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware
+[17.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_hardware)
+[17.210s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' for CMake module files
+[17.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware
+[17.211s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' for CMake config files
+[17.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_hardware', 'cmake_prefix_path')
+[17.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.ps1'
+[17.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.dsv'
+[17.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.sh'
+[17.216s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib'
+[17.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_hardware', 'ld_library_path_lib')
+[17.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.ps1'
+[17.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.dsv'
+[17.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.sh'
+[17.222s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/bin'
+[17.222s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/pkgconfig/robot_hardware.pc'
+[17.222s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/python3.10/site-packages'
+[17.222s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/bin'
+[17.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.ps1'
+[17.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.dsv'
+[17.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.sh'
+[17.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.bash'
+[17.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.zsh'
+[17.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/colcon-core/packages/robot_hardware)
+[17.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_hardware)
+[17.273s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' for CMake module files
+[17.274s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware' for CMake config files
+[17.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_hardware', 'cmake_prefix_path')
+[17.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.ps1'
+[17.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.dsv'
+[17.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/cmake_prefix_path.sh'
+[17.276s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib'
+[17.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_hardware', 'ld_library_path_lib')
+[17.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.ps1'
+[17.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.dsv'
+[17.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/hook/ld_library_path_lib.sh'
+[17.278s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/bin'
+[17.278s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/pkgconfig/robot_hardware.pc'
+[17.278s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/python3.10/site-packages'
+[17.278s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/bin'
+[17.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.ps1'
+[17.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.dsv'
+[17.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.sh'
+[17.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.bash'
+[17.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.zsh'
+[17.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/colcon-core/packages/robot_hardware)
+[18.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program
+[18.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program -- -j2 -l2
+[29.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program -- -j2 -l2
+[29.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program
+[29.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_sample_program)
+[29.919s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' for CMake module files
+[29.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program' returned '0': CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program
+[29.920s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' for CMake config files
+[29.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_sample_program', 'cmake_prefix_path')
+[29.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.ps1'
+[29.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.dsv'
+[29.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.sh'
+[29.922s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib'
+[29.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_sample_program', 'ld_library_path_lib')
+[29.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.ps1'
+[29.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.dsv'
+[29.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.sh'
+[29.923s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/bin'
+[29.923s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/pkgconfig/scara_sample_program.pc'
+[29.923s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/python3.10/site-packages'
+[29.924s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/bin'
+[29.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.ps1'
+[29.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.dsv'
+[29.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.sh'
+[29.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.bash'
+[29.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.zsh'
+[29.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/colcon-core/packages/scara_sample_program)
+[29.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_sample_program)
+[29.965s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' for CMake module files
+[29.965s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program' for CMake config files
+[29.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_sample_program', 'cmake_prefix_path')
+[29.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.ps1'
+[29.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.dsv'
+[29.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/cmake_prefix_path.sh'
+[29.967s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib'
+[29.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_sample_program', 'ld_library_path_lib')
+[29.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.ps1'
+[29.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.dsv'
+[29.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/hook/ld_library_path_lib.sh'
+[29.969s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/bin'
+[29.969s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/pkgconfig/scara_sample_program.pc'
+[29.969s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/python3.10/site-packages'
+[29.969s] Level 1:colcon.colcon_core.environment:checking '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/bin'
+[29.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.ps1'
+[29.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.dsv'
+[29.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.sh'
+[29.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.bash'
+[29.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.zsh'
+[29.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/colcon-core/packages/scara_sample_program)
+[29.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.973s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.984s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[29.984s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/local_setup.ps1'
+[29.986s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/_local_setup_util_ps1.py'
+[29.987s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/setup.ps1'
+[29.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/local_setup.sh'
+[29.989s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/_local_setup_util_sh.py'
+[29.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/setup.sh'
+[29.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/local_setup.bash'
+[29.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/setup.bash'
+[30.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/local_setup.zsh'
+[30.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/setup.zsh'

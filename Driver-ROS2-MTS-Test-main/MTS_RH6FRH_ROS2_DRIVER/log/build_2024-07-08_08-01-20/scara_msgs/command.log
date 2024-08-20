@@ -1,1 +1,0 @@
-Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs -- -j2 -l2

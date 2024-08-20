@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "desktop-lite": {
@@ -13,3 +14,14 @@
     }
   }
 }
+=======
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+      "desktop-lite": {
+          "password": "vscode",
+          "webPort": "6080",
+          "vncPort": "5901"
+      }
+  }
+  }
+>>>>>>> 1a0151c (Created display for codespace)

@@ -88,29 +88,43 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
 
 RUN rosdep init || echo "rosdep already initialized"
-
+RUN apt-get update && apt-get install -qqy x11-apps 
 ARG USERNAME=ros
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
+RUN mkdir -p /home/${USERNAME}
+
 # Create a non-root user
-RUN groupadd --gid $USER_GID $USERNAME \
-  && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
+RUN groupadd --gid $USER_GID ${USERNAME} \
+  && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m ${USERNAME} \
   # Add sudo support for the non-root user
   && apt-get update \
   && apt-get install -y sudo \
-  && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME\
-  && chmod 0440 /etc/sudoers.d/$USERNAME \
+  && echo "${USERNAME}:x:${uid}:${gid}:${USERNAME},,,:/home/${USERNAME}:/bin/bash" >> /etc/passwd \
+  && echo "${USERNAME}:x:${uid}:" >> /etc/group \
+  && echo ${USERNAME} ALL=\(ALL\) NOPASSWD:ALL > /etc/sudoers.d/${USERNAME}\
+  && chmod 0440 /etc/sudoers.d/${USERNAME} \
+  && chown ${uid}:${gid} -R /home/${USERNAME} \
   && rm -rf /var/lib/apt/lists/*
+
+
 
 # Set up autocompletion for user
 RUN apt-get update && apt-get install -y git-core bash-completion \
-  && echo "if [ -f /opt/ros/${ROS_DISTRO}/setup.bash ]; then source /opt/ros/${ROS_DISTRO}/setup.bash; fi" >> /home/$USERNAME/.bashrc \
-  && echo "if [ -f /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash ]; then source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash; fi" >> /home/$USERNAME/.bashrc \
+  && echo "if [ -f /opt/ros/${ROS_DISTRO}/setup.bash ]; then source /opt/ros/${ROS_DISTRO}/setup.bash; fi" >> /home/${USERNAME}/.bashrc \
+  && echo "if [ -f /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash ]; then source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash; fi" >> /home/${USERNAME}/.bashrc \
   && rm -rf /var/lib/apt/lists/* 
 
 ENV DEBIAN_FRONTEND=
 ENV AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS=1
+
+USER    ${USERNAME}
+ENV     HOME /home/${USERNAME} 
+
+RUN cd /home/ros \
+  && sudo chown -R ros:ros .
+
 
 ###########################################
 #  Full image
