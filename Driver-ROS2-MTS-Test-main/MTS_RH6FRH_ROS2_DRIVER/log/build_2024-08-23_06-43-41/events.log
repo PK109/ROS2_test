@@ -1,0 +1,1110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000612] (robot_controllers) JobQueued: {'identifier': 'robot_controllers', 'dependencies': OrderedDict()}
+[0.000667] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000713] (robot_moveit) JobQueued: {'identifier': 'robot_moveit', 'dependencies': OrderedDict()}
+[0.000755] (scara_msgs) JobQueued: {'identifier': 'scara_msgs', 'dependencies': OrderedDict()}
+[0.000798] (robot_hardware) JobQueued: {'identifier': 'robot_hardware', 'dependencies': OrderedDict([('robot_bringup', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup'), ('robot_description', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description')])}
+[0.000846] (scara_sample_program) JobQueued: {'identifier': 'scara_sample_program', 'dependencies': OrderedDict([('scara_msgs', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs')])}
+[0.001519] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.018171] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.028892] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.028959] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039477] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.040490] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099545] (-) TimerEvent: {}
+[0.199893] (-) TimerEvent: {}
+[0.300640] (-) TimerEvent: {}
+[0.400996] (-) TimerEvent: {}
+[0.501385] (-) TimerEvent: {}
+[0.601959] (-) TimerEvent: {}
+[0.702613] (-) TimerEvent: {}
+[0.754543] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.757410] (robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802734] (-) TimerEvent: {}
+[0.903374] (-) TimerEvent: {}
+[0.990106] (robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.995471] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004131] (-) TimerEvent: {}
+[1.031666] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.033657] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104263] (-) TimerEvent: {}
+[1.209154] (-) TimerEvent: {}
+[1.223601] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.260381] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.274954] (robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.276705] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.279499] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.281626] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.284882] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.294442] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.308681] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.309231] (-) TimerEvent: {}
+[1.313898] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.409372] (-) TimerEvent: {}
+[1.480662] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.493973] (robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.494391] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.494602] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.500918] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.509442] (-) TimerEvent: {}
+[1.520672] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.521000] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.521319] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.539075] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.540472] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.609562] (-) TimerEvent: {}
+[1.710253] (-) TimerEvent: {}
+[1.741594] (robot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.747512] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.810385] (-) TimerEvent: {}
+[1.911873] (-) TimerEvent: {}
+[2.012836] (-) TimerEvent: {}
+[2.025787] (robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.031818] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.113421] (-) TimerEvent: {}
+[2.162118] (robot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.162524] (robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.162863] (robot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.164364] (robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.168169] (robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.186401] (robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[2.186573] (robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup\n'}
+[2.189897] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.190522] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[2.190585] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.210599] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.211730] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.212559] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.213499] (-) TimerEvent: {}
+[2.220338] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.242617] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.250623] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.257798] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.272974] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description\n'}
+[2.283897] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[2.298621] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_bringup'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.305863] (robot_description) CommandEnded: {'returncode': 0}
+[2.307257] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[2.307325] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.318692] (-) TimerEvent: {}
+[2.331818] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.334179] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch\n'}
+[2.347047] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch/simulation.launch.py\n'}
+[2.351971] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/launch/real_robot.launch.py\n'}
+[2.352157] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[2.352304] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup\n'}
+[2.387198] (robot_description) CommandEnded: {'returncode': 0}
+[2.394141] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh\n'}
+[2.397135] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv\n'}
+[2.400865] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/environment/path.sh\n'}
+[2.402589] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/environment/path.dsv\n'}
+[2.409195] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/local_setup.bash\n'}
+[2.409390] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/local_setup.sh\n'}
+[2.409630] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/local_setup.zsh\n'}
+[2.409798] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/local_setup.dsv\n'}
+[2.410782] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.dsv\n'}
+[2.414937] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup\n'}
+[2.415456] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake\n'}
+[2.415970] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake\n'}
+[2.416510] (robot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup/share/robot_bringup/package.xml\n'}
+[2.418773] (-) TimerEvent: {}
+[2.425391] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.477750] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[2.477987] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_description'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.489185] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.491055] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf\n'}
+[2.492230] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_ros2_control.xacro\n'}
+[2.493099] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara.urdf.xacro\n'}
+[2.497223] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/urdf/scara_gazebo.xacro\n'}
+[2.497428] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes\n'}
+[2.497583] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4SCARA.stl\n'}
+[2.497731] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J3SCARA.stl\n'}
+[2.497876] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J4Rotate.stl\n'}
+[2.498021] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J1SCARA.stl\n'}
+[2.498166] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/meshes/J2SCARA.stl\n'}
+[2.498308] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config\n'}
+[2.502533] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/config/scara.config.xacro\n'}
+[2.502720] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch\n'}
+[2.502871] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[2.503016] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[2.503280] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz\n'}
+[2.503552] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.gazebo\n'}
+[2.503789] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/rviz/scara.rviz\n'}
+[2.504076] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[2.504700] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[2.505309] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[2.505888] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[2.514722] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/environment/path.sh\n'}
+[2.515331] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[2.515889] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/local_setup.bash\n'}
+[2.516451] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/local_setup.sh\n'}
+[2.517022] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[2.517567] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[2.518116] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.dsv\n'}
+[2.518873] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[2.519045] (-) TimerEvent: {}
+[2.519586] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[2.520479] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[2.520890] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description/share/robot_description/package.xml\n'}
+[2.528818] (robot_description) CommandEnded: {'returncode': 0}
+[2.580202] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[2.581314] (scara_msgs) JobStarted: {'identifier': 'scara_msgs'}
+[2.596669] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[2.597701] (robot_controllers) JobStarted: {'identifier': 'robot_controllers'}
+[2.603552] (scara_msgs) JobProgress: {'identifier': 'scara_msgs', 'progress': 'cmake'}
+[2.604611] (scara_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.609012] (robot_controllers) JobProgress: {'identifier': 'robot_controllers', 'progress': 'cmake'}
+[2.609079] (robot_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_controllers', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.619146] (-) TimerEvent: {}
+[2.706811] (scara_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.712408] (robot_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.720913] (-) TimerEvent: {}
+[2.797964] (scara_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.809195] (scara_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.821002] (-) TimerEvent: {}
+[2.821441] (robot_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.840319] (robot_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.915007] (scara_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.921100] (-) TimerEvent: {}
+[2.928767] (scara_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.929440] (scara_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.930227] (scara_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.934957] (scara_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.996008] (robot_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.007756] (robot_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.008392] (robot_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.009174] (robot_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.013724] (robot_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.021181] (-) TimerEvent: {}
+[3.121472] (-) TimerEvent: {}
+[3.130202] (scara_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.136733] (robot_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.156942] (robot_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.157674] (robot_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.158605] (robot_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.166531] (robot_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.168417] (scara_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.172743] (scara_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.174943] (scara_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.180035] (scara_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.221586] (-) TimerEvent: {}
+[3.322420] (-) TimerEvent: {}
+[3.365321] (scara_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.385329] (robot_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.422524] (-) TimerEvent: {}
+[3.521829] (scara_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.522603] (-) TimerEvent: {}
+[3.525419] (robot_controllers) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.622733] (-) TimerEvent: {}
+[3.625236] (robot_controllers) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.627596] (robot_controllers) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.629611] (robot_controllers) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.636335] (robot_controllers) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.638953] (robot_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.646939] (scara_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.656180] (robot_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[3.659869] (robot_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers\n'}
+[3.671038] (robot_controllers) CommandEnded: {'returncode': 0}
+[3.671480] (robot_controllers) JobProgress: {'identifier': 'robot_controllers', 'progress': 'build'}
+[3.671545] (robot_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.677481] (scara_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.722933] (-) TimerEvent: {}
+[3.724761] (robot_controllers) CommandEnded: {'returncode': 0}
+[3.725261] (scara_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.753555] (robot_controllers) JobProgress: {'identifier': 'robot_controllers', 'progress': 'install'}
+[3.754567] (robot_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_controllers'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.764795] (robot_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.765092] (robot_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/config\n'}
+[3.765427] (robot_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/config/scara_controllers.yaml\n'}
+[3.770053] (robot_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/launch\n'}
+[3.771516] (robot_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/launch/controllers.launch.py\n'}
+[3.771885] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/package_run_dependencies/robot_controllers\n'}
+[3.772565] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/parent_prefix_path/robot_controllers\n'}
+[3.777401] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.sh\n'}
+[3.778235] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.dsv\n'}
+[3.779241] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/path.sh\n'}
+[3.780523] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/environment/path.dsv\n'}
+[3.781042] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.bash\n'}
+[3.781922] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.sh\n'}
+[3.784364] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.zsh\n'}
+[3.785009] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/local_setup.dsv\n'}
+[3.785610] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.dsv\n'}
+[3.786221] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/ament_index/resource_index/packages/robot_controllers\n'}
+[3.787170] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake\n'}
+[3.787911] (robot_controllers) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake\n'}
+[3.788513] (robot_controllers) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_controllers/share/robot_controllers/package.xml\n'}
+[3.791956] (robot_controllers) CommandEnded: {'returncode': 0}
+[3.801944] (scara_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.823018] (-) TimerEvent: {}
+[3.865271] (scara_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.873322] (robot_controllers) JobEnded: {'identifier': 'robot_controllers', 'rc': 0}
+[3.875564] (robot_moveit) JobStarted: {'identifier': 'robot_moveit'}
+[3.885951] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'cmake'}
+[3.886014] (robot_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_moveit', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.923117] (-) TimerEvent: {}
+[3.938680] (scara_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.984982] (robot_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.023228] (-) TimerEvent: {}
+[4.126637] (-) TimerEvent: {}
+[4.143465] (robot_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.163370] (robot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.226749] (-) TimerEvent: {}
+[4.329115] (-) TimerEvent: {}
+[4.396377] (robot_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.415636] (robot_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.417738] (robot_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.419962] (robot_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.429196] (-) TimerEvent: {}
+[4.431219] (robot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.529313] (-) TimerEvent: {}
+[4.552172] (scara_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.629425] (-) TimerEvent: {}
+[4.662485] (robot_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.673162] (robot_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.673394] (robot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.673584] (robot_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.675753] (robot_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.729528] (-) TimerEvent: {}
+[4.830903] (-) TimerEvent: {}
+[4.857978] (robot_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.931012] (-) TimerEvent: {}
+[4.998737] (robot_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.031102] (-) TimerEvent: {}
+[5.094350] (scara_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.118475] (robot_moveit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.121020] (robot_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.122687] (robot_moveit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.127541] (robot_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.127755] (robot_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.135448] (-) TimerEvent: {}
+[5.135641] (robot_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[5.135812] (robot_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit\n'}
+[5.146565] (robot_moveit) CommandEnded: {'returncode': 0}
+[5.146953] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'build'}
+[5.147009] (robot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.207474] (robot_moveit) CommandEnded: {'returncode': 0}
+[5.235541] (-) TimerEvent: {}
+[5.250528] (robot_moveit) JobProgress: {'identifier': 'robot_moveit', 'progress': 'install'}
+[5.250756] (robot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_moveit'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.263543] (robot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.264671] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/launch\n'}
+[5.266017] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/launch/moveit.launch.py\n'}
+[5.267354] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/rviz\n'}
+[5.268661] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/rviz/moveit.rviz\n'}
+[5.269769] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config\n'}
+[5.273804] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/kinematics.yaml\n'}
+[5.274997] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[5.276204] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/moveit_controllers.yaml\n'}
+[5.277387] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/initial_positions.yaml\n'}
+[5.278574] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/joint_limits.yaml\n'}
+[5.279854] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/config/scara.srdf\n'}
+[5.283884] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/ament_index/resource_index/package_run_dependencies/robot_moveit\n'}
+[5.290562] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/ament_index/resource_index/parent_prefix_path/robot_moveit\n'}
+[5.291338] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.sh\n'}
+[5.292101] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/environment/ament_prefix_path.dsv\n'}
+[5.292834] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/environment/path.sh\n'}
+[5.293572] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/environment/path.dsv\n'}
+[5.294291] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/local_setup.bash\n'}
+[5.295041] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/local_setup.sh\n'}
+[5.298604] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/local_setup.zsh\n'}
+[5.299303] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/local_setup.dsv\n'}
+[5.299983] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.dsv\n'}
+[5.302331] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/ament_index/resource_index/packages/robot_moveit\n'}
+[5.306946] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig.cmake\n'}
+[5.307764] (robot_moveit) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/cmake/robot_moveitConfig-version.cmake\n'}
+[5.308486] (robot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_moveit/share/robot_moveit/package.xml\n'}
+[5.312193] (robot_moveit) CommandEnded: {'returncode': 0}
+[5.335629] (-) TimerEvent: {}
+[5.386733] (scara_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.403983] (robot_moveit) JobEnded: {'identifier': 'robot_moveit', 'rc': 0}
+[5.405758] (robot_hardware) JobStarted: {'identifier': 'robot_hardware'}
+[5.418971] (robot_hardware) JobProgress: {'identifier': 'robot_hardware', 'progress': 'cmake'}
+[5.419046] (robot_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[5.430103] (scara_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.435717] (-) TimerEvent: {}
+[5.440584] (scara_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.485376] (scara_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.487984] (scara_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.489590] (scara_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.491194] (scara_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.499708] (robot_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.522557] (scara_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.535834] (-) TimerEvent: {}
+[5.583656] (robot_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.595007] (robot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.615941] (scara_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.635928] (-) TimerEvent: {}
+[5.695009] (robot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.706933] (robot_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.707495] (robot_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.708215] (robot_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.714000] (robot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.720774] (scara_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.734481] (scara_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.736009] (-) TimerEvent: {}
+[5.746350] (scara_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.836139] (-) TimerEvent: {}
+[5.866144] (robot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.898204] (robot_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.898727] (robot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.903037] (robot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.914386] (robot_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.930453] (scara_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.936210] (-) TimerEvent: {}
+[5.942613] (scara_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs\n'}
+[5.970094] (scara_msgs) CommandEnded: {'returncode': 0}
+[5.970510] (scara_msgs) JobProgress: {'identifier': 'scara_msgs', 'progress': 'build'}
+[5.970562] (scara_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.036329] (-) TimerEvent: {}
+[6.055012] (scara_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.078032] (scara_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.136439] (-) TimerEvent: {}
+[6.226991] (robot_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.236526] (-) TimerEvent: {}
+[6.337280] (-) TimerEvent: {}
+[6.439015] (-) TimerEvent: {}
+[6.539765] (-) TimerEvent: {}
+[6.540913] (robot_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[6.639879] (-) TimerEvent: {}
+[6.738023] (robot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.739965] (-) TimerEvent: {}
+[6.751125] (robot_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.769017] (robot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.793719] (robot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.828314] (robot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.840052] (-) TimerEvent: {}
+[6.940703] (-) TimerEvent: {}
+[7.041405] (-) TimerEvent: {}
+[7.142338] (-) TimerEvent: {}
+[7.243416] (-) TimerEvent: {}
+[7.326636] (scara_msgs) StdoutLine: {'line': b'[  6%] Built target scara_msgs__cpp\n'}
+[7.343966] (-) TimerEvent: {}
+[7.444873] (scara_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_scara_msgs\n'}
+[7.453159] (-) TimerEvent: {}
+[7.491744] (scara_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.553285] (-) TimerEvent: {}
+[7.629709] (scara_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_generator_c.dir/rosidl_generator_c/scara_msgs/action/detail/task__functions.c.o\x1b[0m\n'}
+[7.653377] (-) TimerEvent: {}
+[7.658943] (robot_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.700056] (robot_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.753865] (-) TimerEvent: {}
+[7.854556] (-) TimerEvent: {}
+[7.901334] (robot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[7.918759] (scara_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/scara_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scara_msgs/action/task__type_support.cpp.o\x1b[0m\n'}
+[7.954661] (-) TimerEvent: {}
+[8.013882] (scara_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libscara_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.054777] (-) TimerEvent: {}
+[8.107853] (robot_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.117798] (robot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.121340] (scara_msgs) StdoutLine: {'line': b'[ 19%] Built target scara_msgs__rosidl_generator_c\n'}
+[8.139301] (scara_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.154860] (-) TimerEvent: {}
+[8.168355] (robot_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.178631] (robot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.194995] (robot_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[8.218645] (robot_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.254957] (-) TimerEvent: {}
+[8.356979] (-) TimerEvent: {}
+[8.357783] (robot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.457193] (-) TimerEvent: {}
+[8.563300] (robot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.564153] (-) TimerEvent: {}
+[8.564339] (robot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.674494] (-) TimerEvent: {}
+[8.775112] (-) TimerEvent: {}
+[8.875890] (-) TimerEvent: {}
+[8.941063] (robot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.943774] (robot_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.975978] (-) TimerEvent: {}
+[9.035892] (scara_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/scara_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scara_msgs/action/detail/dds_fastrtps/task__type_support.cpp.o\x1b[0m\n'}
+[9.076101] (-) TimerEvent: {}
+[9.163092] (robot_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.176188] (-) TimerEvent: {}
+[9.278511] (-) TimerEvent: {}
+[9.379739] (-) TimerEvent: {}
+[9.397618] (robot_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.400494] (robot_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include\n'}
+[9.401665] (robot_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.406339] (robot_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.414760] (robot_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.416270] (robot_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.419857] (robot_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.436443] (scara_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libscara_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.443612] (robot_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.480102] (-) TimerEvent: {}
+[9.581220] (-) TimerEvent: {}
+[9.599879] (scara_msgs) StdoutLine: {'line': b'[ 29%] Built target scara_msgs__rosidl_typesupport_cpp\n'}
+[9.617709] (scara_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.681705] (-) TimerEvent: {}
+[9.788538] (-) TimerEvent: {}
+[9.795000] (robot_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[9.796617] (robot_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware\n'}
+[9.826696] (robot_hardware) CommandEnded: {'returncode': 0}
+[9.827422] (robot_hardware) JobProgress: {'identifier': 'robot_hardware', 'progress': 'build'}
+[9.833611] (robot_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[9.894777] (-) TimerEvent: {}
+[9.997676] (-) TimerEvent: {}
+[10.098472] (-) TimerEvent: {}
+[10.153957] (robot_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/rh6frh_HW.cpp.o\x1b[0m\n'}
+[10.198573] (-) TimerEvent: {}
+[10.299128] (-) TimerEvent: {}
+[10.400199] (-) TimerEvent: {}
+[10.415064] (scara_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libscara_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.500310] (-) TimerEvent: {}
+[10.574910] (scara_msgs) StdoutLine: {'line': b'[ 35%] Built target scara_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.593353] (scara_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.600393] (-) TimerEvent: {}
+[10.700994] (-) TimerEvent: {}
+[10.801373] (-) TimerEvent: {}
+[10.901913] (-) TimerEvent: {}
+[10.915916] (scara_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scara_msgs/action/detail/task__type_support.c.o\x1b[0m\n'}
+[10.997955] (scara_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libscara_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.001995] (-) TimerEvent: {}
+[11.102301] (-) TimerEvent: {}
+[11.120863] (scara_msgs) StdoutLine: {'line': b'[ 45%] Built target scara_msgs__rosidl_typesupport_introspection_c\n'}
+[11.146746] (scara_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.202433] (-) TimerEvent: {}
+[11.257280] (scara_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/scara_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/scara_msgs/action/task__type_support.cpp.o\x1b[0m\n'}
+[11.302541] (-) TimerEvent: {}
+[11.403146] (-) TimerEvent: {}
+[11.421394] (scara_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libscara_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.503436] (-) TimerEvent: {}
+[11.523564] (scara_msgs) StdoutLine: {'line': b'[ 54%] Built target scara_msgs__rosidl_typesupport_c\n'}
+[11.603541] (-) TimerEvent: {}
+[11.704131] (-) TimerEvent: {}
+[11.805311] (-) TimerEvent: {}
+[11.906544] (-) TimerEvent: {}
+[12.007765] (-) TimerEvent: {}
+[12.109513] (-) TimerEvent: {}
+[12.172079] (scara_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/scara_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scara_msgs/action/detail/task__type_support.cpp.o\x1b[0m\n'}
+[12.209609] (-) TimerEvent: {}
+[12.302216] (scara_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[12.305647] (scara_msgs) StdoutLine: {'line': b'creating scara_msgs.egg-info\n'}
+[12.307240] (scara_msgs) StdoutLine: {'line': b'writing scara_msgs.egg-info/PKG-INFO\n'}
+[12.308772] (scara_msgs) StdoutLine: {'line': b'writing dependency_links to scara_msgs.egg-info/dependency_links.txt\n'}
+[12.309690] (-) TimerEvent: {}
+[12.310777] (scara_msgs) StdoutLine: {'line': b'writing top-level names to scara_msgs.egg-info/top_level.txt\n'}
+[12.312716] (scara_msgs) StdoutLine: {'line': b"writing manifest file 'scara_msgs.egg-info/SOURCES.txt'\n"}
+[12.321778] (scara_msgs) StdoutLine: {'line': b"reading manifest file 'scara_msgs.egg-info/SOURCES.txt'\n"}
+[12.323799] (scara_msgs) StdoutLine: {'line': b"writing manifest file 'scara_msgs.egg-info/SOURCES.txt'\n"}
+[12.403802] (scara_msgs) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_build_scara_msgs_egg\n'}
+[12.409790] (-) TimerEvent: {}
+[12.475314] (scara_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.509912] (-) TimerEvent: {}
+[12.610691] (-) TimerEvent: {}
+[12.711580] (-) TimerEvent: {}
+[12.812012] (-) TimerEvent: {}
+[12.912845] (-) TimerEvent: {}
+[13.013271] (-) TimerEvent: {}
+[13.114194] (-) TimerEvent: {}
+[13.215000] (-) TimerEvent: {}
+[13.315914] (-) TimerEvent: {}
+[13.416828] (-) TimerEvent: {}
+[13.517864] (-) TimerEvent: {}
+[13.580785] (scara_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/scara_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scara_msgs/action/detail/task__type_support_c.cpp.o\x1b[0m\n'}
+[13.617974] (-) TimerEvent: {}
+[13.719096] (scara_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libscara_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.720605] (-) TimerEvent: {}
+[13.821771] (-) TimerEvent: {}
+[13.923179] (-) TimerEvent: {}
+[14.010700] (scara_msgs) StdoutLine: {'line': b'[ 67%] Built target scara_msgs__rosidl_typesupport_introspection_cpp\n'}
+[14.023272] (-) TimerEvent: {}
+[14.124618] (-) TimerEvent: {}
+[14.228110] (-) TimerEvent: {}
+[14.303964] (scara_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libscara_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.328219] (-) TimerEvent: {}
+[14.429749] (-) TimerEvent: {}
+[14.432273] (scara_msgs) StdoutLine: {'line': b'[ 70%] Built target scara_msgs__rosidl_typesupport_fastrtps_c\n'}
+[14.467121] (scara_msgs) StdoutLine: {'line': b'[ 70%] Built target scara_msgs\n'}
+[14.502481] (scara_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.529845] (-) TimerEvent: {}
+[14.630847] (-) TimerEvent: {}
+[14.734431] (-) TimerEvent: {}
+[14.834846] (-) TimerEvent: {}
+[14.937185] (-) TimerEvent: {}
+[15.038117] (-) TimerEvent: {}
+[15.139153] (-) TimerEvent: {}
+[15.240110] (-) TimerEvent: {}
+[15.341058] (-) TimerEvent: {}
+[15.442462] (-) TimerEvent: {}
+[15.551907] (-) TimerEvent: {}
+[15.613935] (robot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5\x1b[m\x1b[K:\n'}
+[15.614284] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:38:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[15.614526] (robot_hardware) StderrLine: {'line': b'   38 |     RCLCPP_SHARED_PTR_DEFINITIONS(Rh6frhHardwareInterface)\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[15.614721] (robot_hardware) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.614902] (robot_hardware) StderrLine: {'line': b'      |                                                           \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[15.628122] (robot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[15.629431] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.629638] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.632317] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.632771] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.632987] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.633257] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.633453] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.633627] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.633889] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.634087] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.634379] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:9\x1b[m\x1b[K,\n'}
+[15.634591] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5\x1b[m\x1b[K:\n'}
+[15.634775] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_init(const hardware_interface::HardwareInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.634968] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:38:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[15.635220] (robot_hardware) StderrLine: {'line': b'   38 |         \x1b[01;35m\x1b[K"Joint \'%s\' has %d command interfaces found. 1 expected."\x1b[m\x1b[K, joint.name.c_str(),\n'}
+[15.642668] (robot_hardware) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.642840] (robot_hardware) StderrLine: {'line': b'   39 |         \x1b[32m\x1b[Kjoint.command_interfaces.size()\x1b[m\x1b[K);\n'}
+[15.642990] (robot_hardware) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.643133] (robot_hardware) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[15.643275] (robot_hardware) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[15.643413] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:38:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[15.643563] (robot_hardware) StderrLine: {'line': b'   38 |         "Joint \'%s\' has \x1b[01;36m\x1b[K%d\x1b[m\x1b[K command interfaces found. 1 expected.", joint.name.c_str(),\n'}
+[15.643711] (robot_hardware) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[15.643843] (robot_hardware) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[15.644010] (robot_hardware) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[15.644171] (robot_hardware) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[15.644328] (robot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[15.644481] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[15.644633] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[15.644790] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[15.644948] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.645103] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.645275] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.645428] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.645583] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.645739] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.645889] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.646042] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:9\x1b[m\x1b[K,\n'}
+[15.646198] (robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5\x1b[m\x1b[K:\n'}
+[15.650414] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:56:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[15.650604] (robot_hardware) StderrLine: {'line': b'   56 |         \x1b[01;35m\x1b[K"Joint \'%s\' has %d state interface. 1 expected."\x1b[m\x1b[K, joint.name.c_str(),\n'}
+[15.650756] (robot_hardware) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.650898] (robot_hardware) StderrLine: {'line': b'   57 |         \x1b[32m\x1b[Kjoint.state_interfaces.size()\x1b[m\x1b[K);\n'}
+[15.651051] (robot_hardware) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.651193] (robot_hardware) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[15.651337] (robot_hardware) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[15.651475] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:56:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[15.651633] (robot_hardware) StderrLine: {'line': b'   56 |         "Joint \'%s\' has \x1b[01;36m\x1b[K%d\x1b[m\x1b[K state interface. 1 expected.", joint.name.c_str(),\n'}
+[15.651776] (robot_hardware) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[15.651910] (-) TimerEvent: {}
+[15.652420] (robot_hardware) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[15.652655] (robot_hardware) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[15.652838] (robot_hardware) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[15.693543] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.693791] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:100:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.693958] (robot_hardware) StderrLine: {'line': b'  100 | CallbackReturn Rh6frhHardwareInterface::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[15.694131] (robot_hardware) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.694297] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.694511] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:177:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.694692] (robot_hardware) StderrLine: {'line': b'  177 | CallbackReturn Rh6frhHardwareInterface::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[15.694840] (robot_hardware) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.703664] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type rh6frh_hardware::Rh6frhHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.703871] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:196:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.704046] (robot_hardware) StderrLine: {'line': b'  196 | hardware_interface::return_type Rh6frhHardwareInterface::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[15.704233] (robot_hardware) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.704380] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:196:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.704557] (robot_hardware) StderrLine: {'line': b'  196 | hardware_interface::return_type Rh6frhHardwareInterface::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[15.704722] (robot_hardware) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.710471] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type rh6frh_hardware::Rh6frhHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.710676] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:222:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.710845] (robot_hardware) StderrLine: {'line': b'  222 | hardware_interface::return_type Rh6frhHardwareInterface::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[15.710993] (robot_hardware) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.711172] (robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:222:116:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.711339] (robot_hardware) StderrLine: {'line': b'  222 | hardware_interface::return_type Rh6frhHardwareInterface::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[15.711481] (robot_hardware) StderrLine: {'line': b'      |                                                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.752013] (-) TimerEvent: {}
+[15.852342] (-) TimerEvent: {}
+[15.953588] (-) TimerEvent: {}
+[16.054927] (-) TimerEvent: {}
+[16.056564] (scara_msgs) StdoutLine: {'line': b'[ 74%] Built target scara_msgs__py\n'}
+[16.094493] (scara_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_generator_py.dir/rosidl_generator_py/scara_msgs/action/_task_s.c.o\x1b[0m\n'}
+[16.155059] (-) TimerEvent: {}
+[16.256213] (-) TimerEvent: {}
+[16.357512] (-) TimerEvent: {}
+[16.458415] (-) TimerEvent: {}
+[16.541834] (scara_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scara_msgs/libscara_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[16.562467] (-) TimerEvent: {}
+[16.615333] (scara_msgs) StdoutLine: {'line': b'[ 80%] Built target scara_msgs__rosidl_generator_py\n'}
+[16.649054] (scara_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.662555] (-) TimerEvent: {}
+[16.731660] (scara_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.762782] (-) TimerEvent: {}
+[16.864610] (-) TimerEvent: {}
+[16.965407] (-) TimerEvent: {}
+[17.060974] (scara_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scara_msgs/scara_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.065489] (-) TimerEvent: {}
+[17.165462] (scara_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scara_msgs/scara_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.167216] (-) TimerEvent: {}
+[17.246985] (scara_msgs) StdoutLine: {'line': b'[ 93%] Built target scara_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[17.250580] (scara_msgs) StdoutLine: {'line': b'[ 93%] Built target scara_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.267311] (-) TimerEvent: {}
+[17.278458] (scara_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/scara_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.367438] (-) TimerEvent: {}
+[17.468004] (-) TimerEvent: {}
+[17.489415] (scara_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/scara_msgs/scara_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.553731] (scara_msgs) StdoutLine: {'line': b'[100%] Built target scara_msgs__rosidl_typesupport_c__pyext\n'}
+[17.570792] (-) TimerEvent: {}
+[17.586150] (scara_msgs) CommandEnded: {'returncode': 0}
+[17.670898] (-) TimerEvent: {}
+[17.682548] (scara_msgs) JobProgress: {'identifier': 'scara_msgs', 'progress': 'install'}
+[17.682645] (scara_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_msgs'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.695516] (scara_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.695905] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/ament_index/resource_index/rosidl_interfaces/scara_msgs\n'}
+[17.696579] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.696882] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.697183] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.697495] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__functions.c\n'}
+[17.698300] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__struct.h\n'}
+[17.699082] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__functions.h\n'}
+[17.699852] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__type_support.h\n'}
+[17.700423] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/task.h\n'}
+[17.700962] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg\n'}
+[17.701263] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.701853] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/library_path.sh\n'}
+[17.702471] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/library_path.dsv\n'}
+[17.703180] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_generator_c.so\n'}
+[17.704251] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_generator_c.so" to ""\n'}
+[17.704538] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.704867] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.705164] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.705468] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__rosidl_typesupport_fastrtps_c.h\n'}
+[17.706045] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg\n'}
+[17.706348] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.706999] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[17.707994] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.708294] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.708587] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.708887] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/task.hpp\n'}
+[17.709415] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.709721] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__builder.hpp\n'}
+[17.710286] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__struct.hpp\n'}
+[17.711082] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__traits.hpp\n'}
+[17.711670] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.711982] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.712271] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.712569] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.713169] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/dds_fastrtps\n'}
+[17.713547] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg\n'}
+[17.713851] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.714486] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.715568] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.715896] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.716188] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.716478] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.716786] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__type_support.c\n'}
+[17.717533] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__rosidl_typesupport_introspection_c.h\n'}
+[17.718098] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg\n'}
+[17.718448] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.719077] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_introspection_c.so\n'}
+[17.720660] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.721005] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_c.so\n'}
+[17.722502] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_c.so" to ""\n'}
+[17.722839] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs\n'}
+[17.723142] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action\n'}
+[17.723435] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail\n'}
+[17.723737] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.724328] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/include/scara_msgs/scara_msgs/action/detail/task__type_support.cpp\n'}
+[17.725125] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[17.730785] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.731146] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_cpp.so\n'}
+[17.732120] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[17.732455] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/pythonpath.sh\n'}
+[17.733080] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/pythonpath.dsv\n'}
+[17.733660] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs-0.0.0-py3.10.egg-info\n'}
+[17.734243] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.734767] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.735259] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.735741] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.736273] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs\n'}
+[17.736655] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action\n'}
+[17.737040] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action/_task_s.c\n'}
+[17.737654] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action/_task.py\n'}
+[17.738340] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action/__init__.py\n'}
+[17.738880] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.739500] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[17.740136] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/libscara_msgs__rosidl_generator_py.so\n'}
+[17.740781] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.741418] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.742029] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.750722] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/__init__.py\n'}
+[17.751206] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/_scara_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.770971] (-) TimerEvent: {}
+[17.800165] (robot_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librobot_hardware.so\x1b[0m\n'}
+[17.853845] (scara_msgs) StdoutLine: {'line': b"Listing '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs'...\n"}
+[17.854083] (scara_msgs) StdoutLine: {'line': b"Compiling '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/__init__.py'...\n"}
+[17.854256] (scara_msgs) StdoutLine: {'line': b"Listing '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action'...\n"}
+[17.854440] (scara_msgs) StdoutLine: {'line': b"Compiling '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action/__init__.py'...\n"}
+[17.854606] (scara_msgs) StdoutLine: {'line': b"Compiling '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/action/_task.py'...\n"}
+[17.866772] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.867795] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.868278] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.870527] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.871034] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[17.871207] (-) TimerEvent: {}
+[17.879164] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages/scara_msgs/scara_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[17.879355] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_generator_py.so\n'}
+[17.879519] (scara_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib/libscara_msgs__rosidl_generator_py.so" to ""\n'}
+[17.879702] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/action/Task.idl\n'}
+[17.879907] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/action/Task.action\n'}
+[17.880137] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/ament_index/resource_index/package_run_dependencies/scara_msgs\n'}
+[17.880580] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/ament_index/resource_index/parent_prefix_path/scara_msgs\n'}
+[17.881088] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/ament_prefix_path.sh\n'}
+[17.881592] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/ament_prefix_path.dsv\n'}
+[17.886543] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/path.sh\n'}
+[17.890838] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/environment/path.dsv\n'}
+[17.891321] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/local_setup.bash\n'}
+[17.891805] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/local_setup.sh\n'}
+[17.892315] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/local_setup.zsh\n'}
+[17.892801] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/local_setup.dsv\n'}
+[17.893285] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.dsv\n'}
+[17.893770] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/ament_index/resource_index/packages/scara_msgs\n'}
+[17.894278] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_generator_cExport.cmake\n'}
+[17.898599] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.899714] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.902965] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.903568] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_generator_cppExport.cmake\n'}
+[17.904656] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.906081] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.906281] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.907350] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.918478] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_cExport.cmake\n'}
+[17.918677] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.918843] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.919007] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.919240] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[17.919906] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.920621] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_generator_pyExport.cmake\n'}
+[17.921268] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/export_scara_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.921902] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[17.922571] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.923238] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.924436] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.925092] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.925700] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.926317] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.931189] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgsConfig.cmake\n'}
+[17.932402] (scara_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake/scara_msgsConfig-version.cmake\n'}
+[17.933380] (scara_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/package.xml\n'}
+[17.943936] (scara_msgs) CommandEnded: {'returncode': 0}
+[17.971291] (-) TimerEvent: {}
+[18.071555] (-) TimerEvent: {}
+[18.153066] (scara_msgs) JobEnded: {'identifier': 'scara_msgs', 'rc': 0}
+[18.157384] (scara_sample_program) JobStarted: {'identifier': 'scara_sample_program'}
+[18.171641] (-) TimerEvent: {}
+[18.192821] (scara_sample_program) JobProgress: {'identifier': 'scara_sample_program', 'progress': 'cmake'}
+[18.192916] (scara_sample_program) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program'), ('PYTHONPATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble')]), 'shell': False}
+[18.271770] (-) TimerEvent: {}
+[18.287299] (scara_sample_program) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[18.352967] (robot_hardware) StdoutLine: {'line': b'[100%] Built target robot_hardware\n'}
+[18.369945] (robot_hardware) CommandEnded: {'returncode': 0}
+[18.371842] (-) TimerEvent: {}
+[18.401943] (scara_sample_program) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[18.411803] (robot_hardware) JobProgress: {'identifier': 'robot_hardware', 'progress': 'install'}
+[18.412272] (robot_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware'), ('PYTHONPATH', '/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[18.422435] (scara_sample_program) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.434599] (robot_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.439120] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/rh6frh_hardware.xml\n'}
+[18.440829] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/librobot_hardware.so\n'}
+[18.441811] (robot_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/librobot_hardware.so" to ""\n'}
+[18.442413] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include\n'}
+[18.442596] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware\n'}
+[18.444143] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware/rh6frh_HW.hpp\n'}
+[18.444448] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware/rh6frh_protocol.h\n'}
+[18.444738] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/library_path.sh\n'}
+[18.445043] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/library_path.dsv\n'}
+[18.446479] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/package_run_dependencies/robot_hardware\n'}
+[18.454671] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/parent_prefix_path/robot_hardware\n'}
+[18.455346] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/ament_prefix_path.sh\n'}
+[18.456051] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/ament_prefix_path.dsv\n'}
+[18.456628] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/path.sh\n'}
+[18.457391] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/path.dsv\n'}
+[18.458084] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.bash\n'}
+[18.462490] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.sh\n'}
+[18.462666] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.zsh\n'}
+[18.462831] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.dsv\n'}
+[18.462990] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.dsv\n'}
+[18.463152] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/packages/robot_hardware\n'}
+[18.463309] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robot_hardware\n'}
+[18.478673] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.478927] (-) TimerEvent: {}
+[18.479088] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.479284] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.479448] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/robot_hardwareConfig.cmake\n'}
+[18.479621] (robot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/robot_hardwareConfig-version.cmake\n'}
+[18.479792] (robot_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.xml\n'}
+[18.491460] (robot_hardware) CommandEnded: {'returncode': 0}
+[18.579308] (-) TimerEvent: {}
+[18.591007] (robot_hardware) JobEnded: {'identifier': 'robot_hardware', 'rc': 0}
+[18.617858] (scara_sample_program) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[18.625354] (scara_sample_program) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[18.625751] (scara_sample_program) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[18.626341] (scara_sample_program) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[18.631220] (scara_sample_program) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[18.679440] (-) TimerEvent: {}
+[18.731960] (scara_sample_program) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[18.740288] (scara_sample_program) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[18.741464] (scara_sample_program) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[18.742811] (scara_sample_program) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[18.748069] (scara_sample_program) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[18.779589] (-) TimerEvent: {}
+[18.878195] (scara_sample_program) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[18.879605] (-) TimerEvent: {}
+[18.980219] (-) TimerEvent: {}
+[19.014479] (scara_sample_program) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[19.066257] (scara_sample_program) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[19.074055] (scara_sample_program) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[19.080296] (-) TimerEvent: {}
+[19.085785] (scara_sample_program) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[19.105162] (scara_sample_program) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.124664] (scara_sample_program) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.180426] (-) TimerEvent: {}
+[19.198345] (scara_sample_program) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[19.205487] (scara_sample_program) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[19.280555] (-) TimerEvent: {}
+[19.315406] (scara_sample_program) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[19.345289] (scara_sample_program) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[19.380714] (-) TimerEvent: {}
+[19.394099] (scara_sample_program) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.408757] (scara_sample_program) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.480842] (-) TimerEvent: {}
+[19.495402] (scara_sample_program) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.498236] (scara_sample_program) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[19.581960] (-) TimerEvent: {}
+[19.585102] (scara_sample_program) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[19.587045] (scara_sample_program) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.650508] (scara_sample_program) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[19.682054] (-) TimerEvent: {}
+[19.693089] (scara_sample_program) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[19.726328] (scara_sample_program) StdoutLine: {'line': b'-- Found scara_msgs: 0.0.0 (/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/share/scara_msgs/cmake)\n'}
+[19.749523] (scara_sample_program) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[19.782134] (-) TimerEvent: {}
+[19.806962] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[19.882216] (-) TimerEvent: {}
+[19.982676] (-) TimerEvent: {}
+[20.063812] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[20.082765] (-) TimerEvent: {}
+[20.102376] (scara_sample_program) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[20.182890] (-) TimerEvent: {}
+[20.201320] (scara_sample_program) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[20.254867] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[20.283009] (-) TimerEvent: {}
+[20.383375] (-) TimerEvent: {}
+[20.405416] (scara_sample_program) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[20.467752] (scara_sample_program) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[20.469643] (scara_sample_program) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[20.483454] (-) TimerEvent: {}
+[20.584229] (-) TimerEvent: {}
+[20.684994] (-) TimerEvent: {}
+[20.686561] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[20.742274] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[20.785074] (-) TimerEvent: {}
+[20.807590] (scara_sample_program) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[20.870500] (scara_sample_program) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[20.885175] (-) TimerEvent: {}
+[20.955382] (scara_sample_program) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.985276] (-) TimerEvent: {}
+[21.080187] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.080418] (scara_sample_program) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/include>\n'}
+[21.080546] (scara_sample_program) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.080653] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[21.085364] (-) TimerEvent: {}
+[21.085792] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.086656] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[21.088321] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.088556] (scara_sample_program) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.089239] (scara_sample_program) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.094344] (scara_sample_program) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.185481] (-) TimerEvent: {}
+[21.286177] (-) TimerEvent: {}
+[21.313154] (scara_sample_program) StdoutLine: {'line': b'-- Generating done\n'}
+[21.324918] (scara_sample_program) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program\n'}
+[21.350957] (scara_sample_program) CommandEnded: {'returncode': 0}
+[21.351407] (scara_sample_program) JobProgress: {'identifier': 'scara_sample_program', 'progress': 'build'}
+[21.351460] (scara_sample_program) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program'), ('PYTHONPATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble')]), 'shell': False}
+[21.386598] (-) TimerEvent: {}
+[21.448963] (scara_sample_program) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_scara_sample_program\n'}
+[21.450984] (scara_sample_program) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o\x1b[0m\n'}
+[21.476576] (scara_sample_program) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o\x1b[0m\n'}
+[21.494408] (-) TimerEvent: {}
+[21.595387] (-) TimerEvent: {}
+[21.696455] (-) TimerEvent: {}
+[21.797451] (-) TimerEvent: {}
+[21.898442] (-) TimerEvent: {}
+[21.999452] (-) TimerEvent: {}
+[22.103187] (-) TimerEvent: {}
+[22.204198] (-) TimerEvent: {}
+[22.305250] (-) TimerEvent: {}
+[22.406316] (-) TimerEvent: {}
+[22.507402] (-) TimerEvent: {}
+[22.608205] (-) TimerEvent: {}
+[22.709258] (-) TimerEvent: {}
+[22.810387] (-) TimerEvent: {}
+[22.911404] (-) TimerEvent: {}
+[23.012657] (-) TimerEvent: {}
+[23.113796] (-) TimerEvent: {}
+[23.215981] (-) TimerEvent: {}
+[23.316414] (-) TimerEvent: {}
+[23.417589] (-) TimerEvent: {}
+[23.519012] (-) TimerEvent: {}
+[23.620777] (-) TimerEvent: {}
+[23.722090] (-) TimerEvent: {}
+[23.823423] (-) TimerEvent: {}
+[23.924847] (-) TimerEvent: {}
+[24.026219] (-) TimerEvent: {}
+[24.127591] (-) TimerEvent: {}
+[24.228777] (-) TimerEvent: {}
+[24.330018] (-) TimerEvent: {}
+[24.431403] (-) TimerEvent: {}
+[24.532779] (-) TimerEvent: {}
+[24.634161] (-) TimerEvent: {}
+[24.735653] (-) TimerEvent: {}
+[24.836951] (-) TimerEvent: {}
+[24.938264] (-) TimerEvent: {}
+[25.039581] (-) TimerEvent: {}
+[25.140943] (-) TimerEvent: {}
+[25.246448] (-) TimerEvent: {}
+[25.346812] (-) TimerEvent: {}
+[25.449576] (-) TimerEvent: {}
+[25.553209] (-) TimerEvent: {}
+[25.654029] (-) TimerEvent: {}
+[25.754752] (-) TimerEvent: {}
+[25.829953] (scara_sample_program) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable task_server_node\x1b[0m\n'}
+[25.854845] (-) TimerEvent: {}
+[25.955409] (-) TimerEvent: {}
+[26.056853] (-) TimerEvent: {}
+[26.101724] (scara_sample_program) StdoutLine: {'line': b'[ 75%] Built target task_server_node\n'}
+[26.156971] (-) TimerEvent: {}
+[26.257589] (-) TimerEvent: {}
+[26.358431] (-) TimerEvent: {}
+[26.461130] (-) TimerEvent: {}
+[26.477585] (scara_sample_program) StdoutLine: {'line': b'running egg_info\n'}
+[26.480897] (scara_sample_program) StdoutLine: {'line': b'creating scara_sample_program.egg-info\n'}
+[26.482449] (scara_sample_program) StdoutLine: {'line': b'writing scara_sample_program.egg-info/PKG-INFO\n'}
+[26.482945] (scara_sample_program) StdoutLine: {'line': b'writing dependency_links to scara_sample_program.egg-info/dependency_links.txt\n'}
+[26.483104] (scara_sample_program) StdoutLine: {'line': b'writing top-level names to scara_sample_program.egg-info/top_level.txt\n'}
+[26.483263] (scara_sample_program) StdoutLine: {'line': b"writing manifest file 'scara_sample_program.egg-info/SOURCES.txt'\n"}
+[26.486442] (scara_sample_program) StdoutLine: {'line': b"reading manifest file 'scara_sample_program.egg-info/SOURCES.txt'\n"}
+[26.492068] (scara_sample_program) StdoutLine: {'line': b"writing manifest file 'scara_sample_program.egg-info/SOURCES.txt'\n"}
+[26.520871] (scara_sample_program) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_scara_sample_program_egg\n'}
+[26.561260] (-) TimerEvent: {}
+[26.662216] (-) TimerEvent: {}
+[26.763550] (-) TimerEvent: {}
+[26.864595] (-) TimerEvent: {}
+[26.965651] (-) TimerEvent: {}
+[27.066845] (-) TimerEvent: {}
+[27.167895] (-) TimerEvent: {}
+[27.269124] (-) TimerEvent: {}
+[27.369530] (-) TimerEvent: {}
+[27.470466] (-) TimerEvent: {}
+[27.570915] (-) TimerEvent: {}
+[27.671996] (-) TimerEvent: {}
+[27.772377] (-) TimerEvent: {}
+[27.872756] (-) TimerEvent: {}
+[27.973138] (-) TimerEvent: {}
+[28.073976] (-) TimerEvent: {}
+[28.174969] (-) TimerEvent: {}
+[28.275361] (-) TimerEvent: {}
+[28.376329] (-) TimerEvent: {}
+[28.476737] (-) TimerEvent: {}
+[28.577176] (-) TimerEvent: {}
+[28.678215] (-) TimerEvent: {}
+[28.779593] (-) TimerEvent: {}
+[28.880000] (-) TimerEvent: {}
+[28.980402] (-) TimerEvent: {}
+[29.080812] (-) TimerEvent: {}
+[29.181213] (-) TimerEvent: {}
+[29.214059] (scara_sample_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse scara_sample_program::TaskServer::goalCallback(const GoalUUID&, std::shared_ptr<const scara_msgs::action::Task_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.214421] (scara_sample_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:33:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[29.214606] (scara_sample_program) StderrLine: {'line': b'   33 |         rclcpp_action::GoalResponse goalCallback(\x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID& uuid\x1b[m\x1b[K, std::shared_ptr<const scara_msgs::action::Task::Goal> goal)\n'}
+[29.214767] (scara_sample_program) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[29.225225] (scara_sample_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse scara_sample_program::TaskServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<scara_msgs::action::Task> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.225426] (scara_sample_program) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:98:135:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[29.225586] (scara_sample_program) StderrLine: {'line': b'   98 | ion::CancelResponse cancelCallback(\x1b[01;35m\x1b[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<scara_msgs::action::Task>> goal_handle\x1b[m\x1b[K)\n'}
+[29.225734] (scara_sample_program) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.225880] (scara_sample_program) StderrLine: {'line': b'\n'}
+[29.281339] (-) TimerEvent: {}
+[29.381757] (-) TimerEvent: {}
+[29.482168] (-) TimerEvent: {}
+[29.583472] (-) TimerEvent: {}
+[29.684758] (-) TimerEvent: {}
+[29.785356] (-) TimerEvent: {}
+[29.885746] (-) TimerEvent: {}
+[29.986661] (-) TimerEvent: {}
+[30.087414] (-) TimerEvent: {}
+[30.188670] (-) TimerEvent: {}
+[30.289905] (-) TimerEvent: {}
+[30.390327] (-) TimerEvent: {}
+[30.494558] (-) TimerEvent: {}
+[30.595870] (-) TimerEvent: {}
+[30.696527] (-) TimerEvent: {}
+[30.797827] (-) TimerEvent: {}
+[30.898194] (-) TimerEvent: {}
+[30.998607] (-) TimerEvent: {}
+[31.099188] (-) TimerEvent: {}
+[31.200193] (-) TimerEvent: {}
+[31.301263] (-) TimerEvent: {}
+[31.402446] (-) TimerEvent: {}
+[31.503795] (-) TimerEvent: {}
+[31.605015] (-) TimerEvent: {}
+[31.706556] (-) TimerEvent: {}
+[31.808155] (-) TimerEvent: {}
+[31.909560] (-) TimerEvent: {}
+[32.010735] (-) TimerEvent: {}
+[32.111445] (-) TimerEvent: {}
+[32.212027] (-) TimerEvent: {}
+[32.313033] (-) TimerEvent: {}
+[32.414278] (-) TimerEvent: {}
+[32.515471] (-) TimerEvent: {}
+[32.615875] (-) TimerEvent: {}
+[32.716264] (-) TimerEvent: {}
+[32.816642] (-) TimerEvent: {}
+[32.867684] (scara_sample_program) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtask_server.so\x1b[0m\n'}
+[32.916744] (-) TimerEvent: {}
+[33.017336] (-) TimerEvent: {}
+[33.118020] (-) TimerEvent: {}
+[33.219091] (-) TimerEvent: {}
+[33.319981] (-) TimerEvent: {}
+[33.380913] (scara_sample_program) StdoutLine: {'line': b'[100%] Built target task_server\n'}
+[33.394287] (scara_sample_program) CommandEnded: {'returncode': 0}
+[33.420061] (-) TimerEvent: {}
+[33.427931] (scara_sample_program) JobProgress: {'identifier': 'scara_sample_program', 'progress': 'install'}
+[33.428911] (scara_sample_program) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program'], 'cwd': '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program', 'env': OrderedDict([('HOSTNAME', '39df70cce776'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.XAuthority'), ('AMENT_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/scara_sample_program'), ('PYTHONPATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_msgs:/opt/ros/humble')]), 'shell': False}
+[33.437759] (scara_sample_program) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.438954] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/pythonpath.sh\n'}
+[33.443832] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/pythonpath.dsv\n'}
+[33.444021] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program-0.0.0-py3.10.egg-info\n'}
+[33.444179] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[33.446262] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[33.447495] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[33.448512] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[33.449582] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program\n'}
+[33.450509] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program/scara_alexa.py\n'}
+[33.451554] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program/__init__.py\n'}
+[33.484479] (scara_sample_program) StdoutLine: {'line': b"Listing '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program'...\n"}
+[33.485584] (scara_sample_program) StdoutLine: {'line': b"Compiling '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program/__init__.py'...\n"}
+[33.486606] (scara_sample_program) StdoutLine: {'line': b"Compiling '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/local/lib/python3.10/dist-packages/scara_sample_program/scara_alexa.py'...\n"}
+[33.491818] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/scara_sample_program/task_server_node\n'}
+[33.500631] (scara_sample_program) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/scara_sample_program/task_server_node" to ""\n'}
+[33.500811] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/libtask_server.so\n'}
+[33.502209] (scara_sample_program) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/libtask_server.so" to ""\n'}
+[33.502631] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/lib/scara_sample_program/scara_alexa.py\n'}
+[33.503138] (scara_sample_program) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/launch\n'}
+[33.503432] (scara_sample_program) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/launch/talking_robot.launch.py\n'}
+[33.503783] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/ament_index/resource_index/package_run_dependencies/scara_sample_program\n'}
+[33.504388] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/ament_index/resource_index/parent_prefix_path/scara_sample_program\n'}
+[33.504990] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/ament_prefix_path.sh\n'}
+[33.505576] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/ament_prefix_path.dsv\n'}
+[33.506160] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/path.sh\n'}
+[33.506760] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/environment/path.dsv\n'}
+[33.507340] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/local_setup.bash\n'}
+[33.507914] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/local_setup.sh\n'}
+[33.508513] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/local_setup.zsh\n'}
+[33.509070] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/local_setup.dsv\n'}
+[33.509630] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.dsv\n'}
+[33.510138] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/ament_index/resource_index/packages/scara_sample_program\n'}
+[33.510696] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/ament_index/resource_index/rclcpp_components/scara_sample_program\n'}
+[33.511281] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/cmake/scara_sample_programConfig.cmake\n'}
+[33.511817] (scara_sample_program) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/cmake/scara_sample_programConfig-version.cmake\n'}
+[33.512416] (scara_sample_program) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/scara_sample_program/share/scara_sample_program/package.xml\n'}
+[33.520136] (-) TimerEvent: {}
+[33.522968] (scara_sample_program) CommandEnded: {'returncode': 0}
+[33.588029] (scara_sample_program) JobEnded: {'identifier': 'scara_sample_program', 'rc': 0}
+[33.592646] (-) EventReactorShutdown: {}

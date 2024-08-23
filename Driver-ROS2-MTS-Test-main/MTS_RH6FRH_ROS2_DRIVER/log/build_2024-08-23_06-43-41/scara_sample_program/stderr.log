@@ -1,0 +1,9 @@
+[01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse scara_sample_program::TaskServer::goalCallback(const GoalUUID&, std::shared_ptr<const scara_msgs::action::Task_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:33:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   33 |         rclcpp_action::GoalResponse goalCallback([01;35m[Kconst rclcpp_action::GoalUUID& uuid[m[K, std::shared_ptr<const scara_msgs::action::Task::Goal> goal)
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse scara_sample_program::TaskServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<scara_msgs::action::Task> >)[m[K’:
+[01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/scara_sample_program/src/task_server.cpp:98:135:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   98 | ion::CancelResponse cancelCallback([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<scara_msgs::action::Task>> goal_handle[m[K)
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
