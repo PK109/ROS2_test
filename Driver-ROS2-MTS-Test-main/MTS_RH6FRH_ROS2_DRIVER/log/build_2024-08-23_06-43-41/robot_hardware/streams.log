@@ -1,0 +1,163 @@
+[0.014s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.460s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.493s] -- Detecting CXX compile features
+[0.497s] -- Detecting CXX compile features - done
+[0.509s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.821s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.136s] -- Found hardware_interface: 2.42.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.333s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.346s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.364s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.253s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.294s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.496s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.712s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.773s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.790s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.814s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.952s] -- Looking for pthread.h
+[3.158s] -- Looking for pthread.h - found
+[3.159s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.539s] -- Found Threads: TRUE  
+[3.758s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.995s] -- Configured cppcheck include dirs: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include
+[3.996s] -- Configured cppcheck exclude dirs and/or files: 
+[4.001s] -- Added test 'lint_cmake' to check CMake code style
+[4.010s] -- Added test 'uncrustify' to check C / C++ code style
+[4.012s] -- Configured uncrustify additional arguments: 
+[4.015s] -- Added test 'xmllint' to check XML markup files
+[4.038s] -- Configuring done
+[4.389s] -- Generating done
+[4.391s] -- Build files have been written to: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware
+[4.421s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware -DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware
+[4.428s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware -- -j2 -l2
+[4.748s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/rh6frh_HW.cpp.o[0m
+[10.208s] In file included from [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5[m[K:
+[10.209s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:38:59:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.209s]    38 |     RCLCPP_SHARED_PTR_DEFINITIONS(Rh6frhHardwareInterface)[01;35m[K;[m[K
+[10.209s]       |                                                           [01;35m[K^[m[K
+[10.209s]       |                                                           [31m[K-[m[K
+[10.223s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.229s]                  from [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:9[m[K,
+[10.229s]                  from [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5[m[K:
+[10.229s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:[m[K In member function ‘[01m[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[10.229s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:38:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[10.237s]    38 |         [01;35m[K"Joint '%s' has %d command interfaces found. 1 expected."[m[K, joint.name.c_str(),
+[10.237s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.237s]    39 |         [32m[Kjoint.command_interfaces.size()[m[K);
+[10.237s]       |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.237s]       |                                      [32m[K|[m[K
+[10.237s]       |                                      [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[10.238s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:38:26:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.238s]    38 |         "Joint '%s' has [01;36m[K%d[m[K command interfaces found. 1 expected.", joint.name.c_str(),
+[10.238s]       |                         [01;36m[K~^[m[K
+[10.238s]       |                          [01;36m[K|[m[K
+[10.238s]       |                          [01;36m[Kint[m[K
+[10.238s]       |                         [32m[K%ld[m[K
+[10.239s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[10.239s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[10.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[10.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[10.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[10.240s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[10.240s]                  from [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/include/robot_hardware/rh6frh_HW.hpp:9[m[K,
+[10.240s]                  from [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:5[m[K:
+[10.245s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:56:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[10.245s]    56 |         [01;35m[K"Joint '%s' has %d state interface. 1 expected."[m[K, joint.name.c_str(),
+[10.245s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.245s]    57 |         [32m[Kjoint.state_interfaces.size()[m[K);
+[10.245s]       |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.245s]       |                                    [32m[K|[m[K
+[10.246s]       |                                    [32m[Kstd::vector<hardware_interface::InterfaceInfo>::size_type {aka long unsigned int}[m[K
+[10.246s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:56:26:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[10.246s]    56 |         "Joint '%s' has [01;36m[K%d[m[K state interface. 1 expected.", joint.name.c_str(),
+[10.246s]       |                         [01;36m[K~^[m[K
+[10.247s]       |                          [01;36m[K|[m[K
+[10.247s]       |                          [01;36m[Kint[m[K
+[10.247s]       |                         [32m[K%ld[m[K
+[10.288s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:[m[K In member function ‘[01m[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[10.288s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:100:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.288s]   100 | CallbackReturn Rh6frhHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[10.288s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.289s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:[m[K In member function ‘[01m[Kvirtual rh6frh_hardware::CallbackReturn rh6frh_hardware::Rh6frhHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[10.289s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:177:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.289s]   177 | CallbackReturn Rh6frhHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[10.289s]       |                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[10.298s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rh6frh_hardware::Rh6frhHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.298s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:196:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.298s]   196 | hardware_interface::return_type Rh6frhHardwareInterface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[10.298s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.299s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:196:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.299s]   196 | hardware_interface::return_type Rh6frhHardwareInterface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[10.299s]       |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[10.305s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rh6frh_hardware::Rh6frhHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.305s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:222:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.305s]   222 | hardware_interface::return_type Rh6frhHardwareInterface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[10.305s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.305s] [01m[K/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/src/robot_hardware/src/rh6frh_HW.cpp:222:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.306s]   222 | hardware_interface::return_type Rh6frhHardwareInterface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[10.306s]       |                                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[12.394s] [100%] [32m[1mLinking CXX shared library librobot_hardware.so[0m
+[12.948s] [100%] Built target robot_hardware
+[12.965s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware -- -j2 -l2
+[13.013s] Invoking command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware
+[13.033s] -- Install configuration: ""
+[13.035s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/rh6frh_hardware.xml
+[13.036s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/librobot_hardware.so
+[13.036s] -- Set runtime path of "/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/lib/librobot_hardware.so" to ""
+[13.037s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include
+[13.038s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware
+[13.038s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware/rh6frh_HW.hpp
+[13.039s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/include/robot_hardware/rh6frh_protocol.h
+[13.039s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/library_path.sh
+[13.039s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/library_path.dsv
+[13.045s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/package_run_dependencies/robot_hardware
+[13.049s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/parent_prefix_path/robot_hardware
+[13.050s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/ament_prefix_path.sh
+[13.051s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/ament_prefix_path.dsv
+[13.051s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/path.sh
+[13.052s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/environment/path.dsv
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.bash
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.sh
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.zsh
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/local_setup.dsv
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.dsv
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/packages/robot_hardware
+[13.057s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robot_hardware
+[13.073s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.073s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[13.073s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.074s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/robot_hardwareConfig.cmake
+[13.074s] -- Installing: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/cmake/robot_hardwareConfig-version.cmake
+[13.074s] -- Up-to-date: /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_hardware/share/robot_hardware/package.xml
+[13.086s] Invoked command in '/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware' returned '0': AMENT_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_description:/home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/install/robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2_ws/MTS_RH6FRH_ROS2_DRIVER/build/robot_hardware
